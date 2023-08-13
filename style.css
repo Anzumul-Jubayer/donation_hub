@@ -146,29 +146,65 @@ hr {
 #orange {
     background-color: rgba(255, 166, 0, 0.33);
 }
-#own{
-  background-image: url(images/v1.jpg);
-  background-repeat: no-repeat;
-  margin-top: 20px;
-  background-size: 100%;
+
+#own {
+    background-image: url(images/v1.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-size: 100%;
 }
-#top{
+
+#top {
     text-align: center;
 }
-#top h2{
+
+#top h2 {
     color: white;
     font-size: 50px;
 }
-#top b{
+
+#top b {
     color: rgba(0, 255, 255, 0.822);
 }
-#top input{
-    background-color:rgba(128, 128, 128, 0.242);
+
+#top input {
+    background-color: rgba(128, 128, 128, 0.242);
 }
-#top button{
-    background-image: linear-gradient(orange,tomato);
+
+#top button {
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
     font-size: 20px;
+}
+#get h2{
+    color: black;
+    font-size: 50px;
+}
+#get p{
+    color: rgba(128, 128, 128, 0.511);
+}
+#rong{
+    background-color: rgba(250, 235, 215, 0.482);
+    margin-left: 350px;
+    margin-right:350px;
+}
+.mail{
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.mail input{
+    padding: 13px 20px 8px;
+    border: 2px solid rgba(0, 0, 0, 0.426);
+    background-color: rgba(128, 128, 128, 0.353);
+}
+.mail a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 20px;
+    color: white;
 }
