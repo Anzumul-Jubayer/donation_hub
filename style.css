@@ -3,16 +3,17 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
-#banner{
+
+#banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-   
+
 }
 
 #top {
     padding-top: 200px;
-   padding-bottom: 500px;
+    padding-bottom: 500px;
 }
 
 .help {
@@ -21,19 +22,19 @@ body {
 }
 
 .help h1 {
-    color:white;
+    color: white;
     font-weight: 900;
     font-size: 50px;
 }
 
 .help p {
-    color:rgb(76, 129, 91);
+    color: rgb(76, 129, 91);
     font-weight: 800;
 }
 
 .help a {
     text-decoration: none;
-    background-image: linear-gradient(tomato,orange);
+    background-image: linear-gradient(tomato, orange);
     padding: 10px 20px 15px;
     border-radius: 5px;
     color: white;
@@ -41,5 +42,65 @@ body {
 
 #link {
     margin-top: 40px;
-    
+
+}
+
+#black h1 {
+    color: black;
+}
+
+#flex {
+    display: flex;
+    margin-left: 280px;
+    margin-right: 250px;
+}
+
+.amount {
+    width: 20%;
+    margin-top: 50px;
+
+    background-color: rgba(128, 128, 128, 0.042);
+    margin-right: 20px;
+    padding: 70px 40px;
+}
+
+.amount p {
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+
+#two {
+    background-color: rgba(165, 42, 42, 0.325);
+    border: 5px solid rgba(255, 0, 0, 0.416);
+    border-radius: 5px;
+}
+
+#taka {
+    margin-top: 60px;
+}
+
+#taka p {
+    text-align: center;
+    color: gray;
+}
+
+hr {
+    width: 50%;
+    color: gray;
+    border-top: 3px solid rgba(128, 128, 128, 0.44);
+}
+
+#now a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+#now {
+    text-align: center;
+    margin-top: 50px;
+
 }
