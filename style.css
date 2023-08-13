@@ -146,3 +146,29 @@ hr {
 #orange {
     background-color: rgba(255, 166, 0, 0.33);
 }
+#own{
+  background-image: url(images/v1.jpg);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  background-size: 100%;
+}
+#top{
+    text-align: center;
+}
+#top h2{
+    color: white;
+    font-size: 50px;
+}
+#top b{
+    color: rgba(0, 255, 255, 0.822);
+}
+#top input{
+    background-color:rgba(128, 128, 128, 0.242);
+}
+#top button{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
